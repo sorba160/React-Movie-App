@@ -29,7 +29,8 @@ export default function CustomPagination({ setPage, numOfPages = 10 }) {
           onChange={(e) => handlePageChange(e.target.textContent)}
           count={numOfPages}
           color="primary"
-          
+          hideNextButton
+          hidePrevButton
         />
       </ThemeProvider>
     </div>
